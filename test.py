@@ -1,7 +1,10 @@
 import streamlit as st
 import google.generativeai as genai
 from dotenv import load_dotenv, find_dotenv
-import os
+import os, subprocess
+
+subprocess.run(["pip", "install", "-r", "requirements.txt"], check=True)
+
 
 load_dotenv()
 # Configure the AI service with the API key

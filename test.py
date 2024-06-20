@@ -3,7 +3,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv, find_dotenv
 import os, subprocess
 
-subprocess.run(["pip", "install", "-r", "requirements.txt"], check=True)
+subprocess.Popen(["pip", "install", "-r", "requirement.txt"])
 
 
 load_dotenv()

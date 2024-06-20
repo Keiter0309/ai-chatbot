@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 # Configure the AI service with the API key
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Set the page configuration
 st.set_page_config(page_title="Gemini AI Playground", page_icon=":robot_face:", layout="wide")

@@ -1,9 +1,9 @@
+subprocess.Popen(["pip", "install", "-r", "requirement.txt"])
 import streamlit as st
 import google.generativeai as genai
 from dotenv import load_dotenv, find_dotenv
 import os, subprocess
 
-subprocess.Popen(["pip", "install", "-r", "requirement.txt"])
 
 
 load_dotenv()
